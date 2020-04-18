@@ -60,7 +60,7 @@ function App() {
               lineHeight: 1
             }}
           >
-            What are partials in Ruby on Rails?
+            {window.title}
           </Textfit>
         </h1>
         <div
