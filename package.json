@@ -6,5 +6,14 @@
   "repository": "yes",
   "author": "yes",
   "license": "yes",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@rollup/plugin-replace": "^2.3.1",
+    "rollup": "^2.6.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  }
 }
