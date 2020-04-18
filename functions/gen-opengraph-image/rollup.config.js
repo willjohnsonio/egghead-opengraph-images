@@ -1,11 +1,11 @@
-import babel from "gen-opengraph-images/node_modules/rollup-plugin-babel";
-import resolve from "gen-opengraph-images/node_modules/@rollup/plugin-node-resolve";
-import commonjs from "gen-opengraph-images/node_modules/@rollup/plugin-commonjs";
-import builtins from "gen-opengraph-images/node_modules/rollup-plugin-node-builtins";
-import globals from "gen-opengraph-images/node_modules/rollup-plugin-node-globals";
-import replace from "gen-opengraph-images/node_modules/@rollup/plugin-replace";
-import React from "gen-opengraph-images/node_modules/react";
-import ReactDOM from "gen-opengraph-images/node_modules/react-dom";
+import babel from "rollup-plugin-babel";
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import builtins from "rollup-plugin-node-builtins";
+import globals from "rollup-plugin-node-globals";
+import replace from "@rollup/plugin-replace";
+import React from "react";
+import ReactDOM from "react-dom";
 
 const config = {
   input: "src/image.js",

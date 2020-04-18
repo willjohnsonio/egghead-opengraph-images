@@ -3,5 +3,10 @@
     "version": "1.0.0",
     "main": "index.js",
     "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-react": "^7.9.4",
+        "rollup": "^2.6.1"
+    }
+}
