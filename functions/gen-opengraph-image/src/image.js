@@ -92,3 +92,5 @@ function App() {
     </div>
   );
 }
+
+render(<App />, document.getElementById('corgi'))
