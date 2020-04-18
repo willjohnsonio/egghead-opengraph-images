@@ -1,9 +1,9 @@
 /** @jsx jsx */
-import { jsx, Global } from "gen-opengraph-images/src/node_modules/@emotion/core";
-import Textfit from "gen-opengraph-images/src/node_modules/react-textfit";
-import { render } from "gen-opengraph-images/src/node_modules/react-dom";
+import { jsx, Global } from "@emotion/core";
+import Textfit from "react-textfit";
+import { render } from "react-dom";
 
-export default function App() {
+function App() {
   return (
     <div
       css={{
@@ -46,7 +46,7 @@ export default function App() {
       >
         <h1
           css={{
-            color: "#E9F5FB",
+            color: "#FFF",
             height: "100%",
             textAlign: "center"
           }}
