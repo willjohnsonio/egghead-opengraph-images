@@ -1992,7 +1992,7 @@
     });
   });
 
-  /** @license React v16.13.0
+  /** @license React v16.13.1
    * react-is.production.min.js
    *
    * Copyright (c) Facebook, Inc. and its affiliates.
