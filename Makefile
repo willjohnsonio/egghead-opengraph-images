@@ -1,2 +1,2 @@
 install:
-	cd functions/gen-opengraph-image && yarn build
+	cd functions/gen-opengraph-image && npm i && npm run build
